@@ -52,6 +52,14 @@ def test_suite():
 
         # -*- extra stuff goes here -*-
 
+        # Integration tests for Payment
+        ztc.ZopeDocFileSuite(
+            'Payment.txt',
+            package='mingtak.paymentmethod',
+            optionflags = OPTION_FLAGS,
+            test_class=TestCase),
+
+
         ])
 
 if __name__ == '__main__':
