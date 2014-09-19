@@ -1,0 +1,17 @@
+mingtak.paymentmethod Installation
+----------------------------------
+
+To install mingtak.paymentmethod using zc.buildout and the plone.recipe.zope2instance
+recipe to manage your project, you can do this:
+
+* Add ``mingtak.paymentmethod`` to the list of eggs to install, e.g.:
+
+    [buildout]
+    ...
+    eggs =
+        ...
+        mingtak.paymentmethod
+       
+* Re-run buildout, e.g. with:
+
+    $ ./bin/buildout
