@@ -40,4 +40,4 @@ class SampleView(grok.View):
 
     grok.context(IPayment)
     grok.require('zope2.View')
-    # grok.name('view')
+    grok.name('view')
